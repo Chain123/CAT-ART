@@ -108,5 +108,5 @@ pip install sklearn
 
 <!-- Contact -->
 ## Contact
-Chenglin Li: ch11 @ ualberta dot ca
+Chenglin Li: ch11 AT ualberta dot ca
 
