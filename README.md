@@ -81,11 +81,11 @@ pip install sklearn
    'age': [11, 21, 31],
    'gender': [1, 2, 1], # 1-male, 2-female
    'feature': [
-               [[a, b], [1, 2, 1], [i,j, k,l]],  # user 'feawture' in domain 0 (for the three users)
-               [[b, c], [1, 2, 4], [i,k,l]],  # user 'feawture' in domain 1 (for the three users)
-               [[a, d], [1, 2, 10], [k,l]],  # user 'feawture' in domain 2 (for the three users)
-               [[d, b], [1,2, 6], [1, l]],  # user 'feawture' in domain 3 (for the three users)
-               [[g, b], [1, 2, 5, 6], [i,h, p]],  # user 'feawture' in domain 4 (for the three users)
+               [[a, b], [1, 2, 1], [i,j, k,l]],  # user 'feature' in domain 0 (for the three users)
+               [[b, c], [1, 2, 4], [i,k,l]],  # user 'feature' in domain 1 (for the three users)
+               [[a, d], [1, 2, 10], [k,l]],  # user 'feature' in domain 2 (for the three users)
+               [[d, b], [1,2, 6], [1, l]],  # user 'feature' in domain 3 (for the three users)
+               [[g, b], [1, 2, 5, 6], [i,h, p]],  # user 'feature' in domain 4 (for the three users)
                ]           
    ```
   
