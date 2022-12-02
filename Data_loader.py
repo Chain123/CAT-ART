@@ -15,7 +15,7 @@ import pandas as pd
 ####################################
 def train_test_split():
     # demo path
-    data_dir = "./data"
+    data_dir = "./data"  # *** configure your own path here. ***
     file_ids = [65]
     # IDs to filenames
     train_files = []

@@ -133,7 +133,7 @@ if __name__ == '__main__':
 
     params = parser.parse_args()
     params.n_items = [100000, 100000, 50000, 50000, 50000]
-    if params.amazon:
+    if params.amazon:  # amazon datasets: future work   
         params.n_users = 18347 + 1
         params.n_items = [274552 + 1, 94657 + 1, 41896 + 1, 76172 + 1, 24649 + 1]
         params.result_dir = "/data/ceph/seqrec/UMMD/www/amazon"

@@ -67,7 +67,9 @@ pip install sklearn
     run the train_test_split.ipynb  # for train and test splitting (only for missing 0 data samples)
     # Results were saved to:/data/ceph/seqrec/UMMD/data/pickle/q36_age_train_rec2  
    ```
-   Here we provide a single processed file for both train and test as demo data at ./data folder.
+   Here we provide a single processed file for both train and test as demo data at ./data folder. 
+
+   We are still discussing whether and how to open-source the original dataset.
 
    1.2 Data Structure of used pickle file
    
@@ -103,8 +105,8 @@ pip install sklearn
     python main_cross_pre.py --result_dir 'your path'
     ```
     For baseline HeroGRAPH, please refer to their open source at: https://github.com/cuiqiang1990/HeroGRAPH
+
 <!-- Contact -->
 ## Contact
-Null
-
+Chenglin Li: ch11 @ ualberta dot ca
 
