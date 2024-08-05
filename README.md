@@ -15,8 +15,8 @@ One-For-All
 ├── bert                                      Bert modules and Transformer layers
 ├── data                                      Demo data  
 ├── dataset                                   Data set and processing methods
-│  ├── check_sparsity.ipynb                   Calculate data set distribution for the all domains.   
-│  ├── multi-domain_amazon.ipynb              Demo on how to process the amazon multiple data sets for MTCDR   
+│  ├── check_sparsity.ipynb                   Calculate data set distribution for all domains.   
+│  ├── multi-domain_amazon.ipynb              Demo on how to process the Amazon multiple data sets for MTCDR   
 ├── utils                                     Utilities, e.g. early stop.
 │  ├── __init__.py                            Module init 
 │  ├── data.py                                All data loaders 
@@ -26,17 +26,17 @@ One-For-All
 │  ├── result_plot.py                         Line plot function 
 │  ├── Save_embedding.py                      Functions for saving item/user embedding, preference scores, etc. 
 │  ├── scheduler.py                           Learning rate scheduler
-│  ├── tools.py                               Others (not in using)
+│  ├── tools.py                               Others (not in use)
 │── Data_loader.py                            Entry for data split and data loader creators      
 ├── loss_functions.py                         Loss functions
 ├── main_cross.py                             CAT-ART model, without pre-training of the CAT module 
 ├── main_cross_pre.py                         CAT-ART model, with pre-training of the CAT module
-├── main_cross_scores.py                      Get the averaged attention-scores of the ART module on the test set.
+├── main_cross_scores.py                      Get the averaged attention scores of the ART module on the test set.
 ├── main_single_mf.py                         Single domain MF model for recommendation
 ├── models.py                                 Models 
 ├── run_functions.py                          Run functions, e.g. train step, test step
-├── show_result.py                            Print out result from pickle file
-├── run.sh                                    General run entry on venus 
+├── show_result.py                            Printout result from the pickle file
+├── run.sh                                    General run entry on Venus 
 ├── run_cross.sh                              My run demos with parameters 
 ├── run_cross_auto.sh                         My run demos with parameters
 ├── run_cross_pre.sh
